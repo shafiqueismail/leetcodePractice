@@ -5,7 +5,17 @@ class Solution {
     public boolean isValid(String s) {
 
         Stack<String> stack = new Stack<String>();
-        
+        for(int i = 0; i < s.length; i++){
+            if(s.indexOf(i) == "{" || s.indexOf(i) == "(" ||s.indexOf(i) == "["){
+                stack.add(s.indexOf(i));
+            }
+            else if((s.indexOf(i) == "}" || s.indexOf(i) == ")" ||s.indexOf(i) == "]") && stack.empty()){
+                return false;
+            }
+            else if(){
+                
+            }
+        }
         
     }
 }
