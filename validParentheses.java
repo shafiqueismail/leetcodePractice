@@ -1,5 +1,15 @@
 // Question 20: Valid Parentheses
 
+
+class Solution {
+    public boolean isValid(String s) {
+
+        Stack<String> stack = new Stack<String>();
+        
+        
+    }
+}
+
 /*
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -41,9 +51,3 @@ Constraints:
 1 <= s.length <= 104
 s consists of parentheses only '()[]{}'.
 */
-
-class Solution {
-    public boolean isValid(String s) {
-        
-    }
-}
